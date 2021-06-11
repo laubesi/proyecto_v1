@@ -250,7 +250,7 @@ header .row nav ul li a{
     border-radius: 10px 10px 0 0;
     background-position: center;
     background-size: 82%;
-    background-image: url('./columnas/anillo_azul.jpg')
+    background-image: url('../columnas/anillo_azul.jpg')
 }
 
 .container35 .row .col-33-2{
@@ -260,7 +260,7 @@ header .row nav ul li a{
     border-radius: 10px 10px 0 0;
     background-position: center;
     background-size: 82%;
-    background-image: url('./columnas/anillo_oro.jpg')
+    background-image: url('../columnas/anillo_oro.jpg')
 }
 
 .container35 .row .col-33-3{
@@ -270,7 +270,7 @@ header .row nav ul li a{
     border-radius: 10px 10px 0 0;
     background-position: center;
     background-size: 82%;
-    background-image: url('./columnas/collar.jpg')
+    background-image: url('../columnas/collar.jpg')
 }
 
 .container35 .row .col-33-1 .sub1{

@@ -78,7 +78,7 @@ header .row nav ul li:hover{
     color: #020202;
 }
 
-header .row nav ul li:nth-child(4){
+header .row nav ul li:nth-child(3){
     height: 100%;
     background-color: rgb(9, 97, 102);
     display: flex;
@@ -123,7 +123,7 @@ header .row nav ul li a{
 
 .col-33-2{
     background-image: url('../productos/anillo_esmeralda.PNG');
-    background-size: auto 100%;
+    background-size: 100% auto;
 }
 
 .col-33-3{
@@ -166,6 +166,7 @@ header .row nav ul li a{
 
 .col-33-6{
     background-image: url('../productos/piedras.PNG');
+    background-size: 100%;
 }
 
 /* END Columnas 2 */
@@ -193,7 +194,7 @@ header .row nav ul li a{
 }
 
 .sub2 a  button:hover{
-background-color: rgb(126, 87, 87);
+background-color: rgb(28, 153, 160);
 cursor: pointer;
 }
 
@@ -233,7 +234,7 @@ cursor: pointer;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2rem;
-    color: rgb(78, 41, 41);
+    color: rgb(4, 21, 22);
 }
 
 .container6 .background6 .back-color6 .row6 .col-30 form label{
@@ -253,7 +254,7 @@ cursor: pointer;
 .container6 .background6 .back-color6 .row6 .col-30 form button{
     width: 60%;
     padding: 7px 12px;
-    background-color:rgb(185, 135, 135);
+    background-color:rgb(9, 97, 102);
     color: azure;
     border: none;
     letter-spacing: 2px;
@@ -263,7 +264,7 @@ cursor: pointer;
 }
 
 .container6 .background6 .back-color6 .row6 .col-30 form button:hover{
-    background-color:rgb(46, 21, 21);
+    background-color:rgb(28, 153, 160);
     cursor: pointer;
 }
 
@@ -271,11 +272,19 @@ cursor: pointer;
 /* ----------- Tendencias ------------ */
 
 .container5 .background5{
-    background-image: url("tendencias.png");
-    width: 100%;
+    background-image: url("../productos/anillo3.jpg");
+    width: 90%;
     height: 70vh;
     background-size: 100%;
     background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.container5 .background5 .back-color5{
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.3);
 }
 
 .container5 .background5 .back-color5 .row5{
@@ -316,7 +325,7 @@ cursor: pointer;
 .container5 .background5 .back-color5 .row5 .col-60 button{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
     color: white;
-    background-color: rgb(214, 149, 149) ;
+    background-color: rgb(9, 97, 102) ;
     border-radius: 15px;
     padding: 10px 40px;
     border: none;
@@ -329,7 +338,7 @@ cursor: pointer;
 }
 
 .container5 .background5 .back-color5 .row5 .col-60 button:hover{
-    color:rgb(59, 41, 41);
+    color:rgb(9, 97, 102);
     background-color:white ;
     cursor: pointer;
 }
@@ -352,7 +361,7 @@ cursor: pointer;
 }
 
 .container4 .row4:nth-child(1) h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
@@ -368,7 +377,6 @@ cursor: pointer;
 
 .container4-info{
     width: 90%;
-    padding: 10px;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -376,6 +384,7 @@ cursor: pointer;
     align-items: center;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 img{
@@ -385,16 +394,16 @@ img{
 }
 
 h1{
-    color: #a05252;
+    color: rgb(9, 97, 102);
     margin-bottom: 2%;
     margin: 1.5%;
     text-align: center;
     font-style: oblique;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
 
 h1:hover{
-    color: rgb(173, 132, 132);
+    color: rgb(9, 97, 102);
 }
 
 h3{
@@ -403,7 +412,7 @@ h3{
     margin: 1%;
     text-align: center;
     font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
     font-size: 1rem;
 }
 
@@ -412,14 +421,14 @@ h3{
     padding-top: 12px;
     padding-bottom: 12px;
     border: none;
-    background-color:rgb(214, 149, 149);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    background-color:rgb(9, 97, 102);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
     font-size: 1.5rem;
-    color:rgb(43, 19, 19);
+    color:white;
 }
 
 .row4 button:hover{
-background-color: rgb(192, 161, 161);
+background-color: rgb(28, 153, 160);
 cursor: pointer;
 }
 
@@ -446,7 +455,7 @@ cursor: pointer;
 }
 .container-contacto h2{
     font-weight: bold;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
         color:rgb(9, 97, 102);
         text-decoration: none;
        font-size: 6mm;
@@ -455,7 +464,7 @@ cursor: pointer;
 
 .container-contacto p{
     font-weight: lighter;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
         color:black;
         text-decoration: none;
        font-size: 5mm;
