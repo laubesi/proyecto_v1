@@ -65,7 +65,7 @@ header .row nav ul li:hover{
     color: #020202;
 }
 
-header .row nav ul li:nth-child(1){
+header .row nav ul li:nth-child(2){
     height: 100%;
     background-color: rgb(9, 97, 102);
     display: flex;
@@ -89,7 +89,7 @@ header .row nav ul li a{
 }
 
 .container34 .background{
-    background-image: url('../banner/joyas-banner.jpg');
+    background-image: url('../banner/banner2.jpg');
     width: 100%;
     height: 100vh;
     background-size: 100%;
@@ -178,11 +178,11 @@ header .row nav ul li a{
 
 .container .background .row .col-60{
     display: flex;
-    width: 60%;
+    width: 35%;
 }
 
 .container .background .row .col-60 img{
-    width: 50vw;
+    width: 30vw;
 }
     
 .container .background .back-color .linea{
@@ -195,13 +195,19 @@ header .row nav ul li a{
     width: 100%;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
 }
 
 .container .background .linea p{
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 10%;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.container .background .linea p:nth-child(3){
+    margin-bottom: 6%;
 }
     
 .container .background .back-color .contactar{
@@ -227,183 +233,7 @@ header .row nav ul li a{
 
 /* ----------- columnas ------------ */
 
-.container35{
-    width: 90%;
-    background-color: rgb(217,217,217);
-    margin: 0px auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
-.container35 .row{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-
-}
-
-.container35 .row .col-33-1{
-    width: 30%;
-    height: 300px;
-    margin: 20px;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
-    background-size: 82%;
-    background-image: url('../columnas/anillo_azul.jpg')
-}
-
-.container35 .row .col-33-2{
-    width: 30%;
-    height: 300px;
-    margin: 20px;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
-    background-size: 82%;
-    background-image: url('../columnas/anillo_oro.jpg')
-}
-
-.container35 .row .col-33-3{
-    width: 30%;
-    height: 300px;
-    margin: 20px;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
-    background-size: 82%;
-    background-image: url('../columnas/collar.jpg')
-}
-
-.container35 .row .col-33-1 .sub1{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-
-.container35 .row .col-33-2 .sub1{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-
-.container35 .row .col-33-3 .sub1{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-
-/* ---------------- Columna 1 ---------------- */
-
-.container35 .row .col-33-1 .sub1 h2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.8rem;
-    color:rgb(9, 97, 102);
-}
-
-.container35 .row .col-33-1 .sub2{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.container35 .row .col-33-1 .sub2 a  {
-    width: 100%;
-}
-
-.container35 .row .col-33-1 .sub2 a button{
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: none;
-    background-color:rgb(9, 97, 102);
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
-    color: blanchedalmond;
-}
-
-.container35 .row .col-33-1 .sub2 a button:hover{
-    background-color: rgb(71, 71, 71);
-    cursor: pointer;
-}
-
-/* ---------------- Columna 2 ---------------- */
-
-.container35 .row .col-33-2 .sub1 h2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.8rem;
-    color:rgb(9, 97, 102);
-}
-
-.container35 .row .col-33-2 .sub2{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.container35 .row .col-33-2 .sub2 a  {
-    width: 100%;
-}
-
-.container35 .row .col-33-2 .sub2 a button{
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: none;
-    background-color:rgb(9, 97, 102);
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
-    color: blanchedalmond;
-}
-
-.container35 .row .col-33-2 .sub2 a button:hover{
-    background-color: rgb(71, 71, 71);
-    cursor: pointer;
-}
-
-/* ---------------- Columna 3 ---------------- */
-
-.container35 .row .col-33-3 .sub1 h2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.8rem;
-    color:rgb(9, 97, 102);
-}
-
-.container35 .row .col-33-3 .sub2{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.container35 .row .col-33-3 .sub2 a  {
-    width: 100%;
-}
-
-.container35 .row .col-33-3 .sub2 a button{
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: none;
-    background-color:rgb(9, 97, 102);
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
-    color: blanchedalmond;
-}
-
-.container35 .row .col-33-3 .sub2 a button:hover{
-    background-color: rgb(71, 71, 71);
-    cursor: pointer;
-}
 
 /* ----------- Mapa de google ------------ */
 .container36{
