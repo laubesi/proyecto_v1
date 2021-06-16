@@ -1,36 +1,22 @@
-body,main{
-    padding: 0;
-    margin: 0;
-}
-/* HEADER */
-
-header{
-    margin: 0px;
+body{
+    background-color: rgb(9, 97, 102);
     padding: 0px;
-    width: 100%;
-    height: 40vh;
+    margin: 0px;
+}
+    
+main{
+    padding: 0px;
+    margin: 0px;
 }
 
-.container10{
-    width: 100%;
-    height: 70vh;
-    display: flexbox;  
-    background-image: url(Nombre.png);
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    background-size: 110% 55%;
-}
+/* Header */
 
-
-/* MENÚ */
 header{
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
 }
-
 header .row .cont-logo{
     width: 100%;
     background-color: azure;
@@ -51,31 +37,17 @@ header .row nav{
 }
 
 header .row nav ul{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 0px;
-    background-color: black;
-    height: 7vh;
-    margin-top: 0px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 0px;
+    background-color: #020202;
 }
 
 header .row nav ul li{
     list-style: none;
-    padding: 0px 45px;
+    padding: 7px 45px;
     height: 100%;
     display: flex;
     align-items: center;
-}
-
-header .row nav ul li:hover{
-    background-color: rgb(9, 97, 102);
-    color: #020202;
 }
 
 header .row nav ul li:nth-child(3){
@@ -92,347 +64,366 @@ header .row nav ul li a{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* End header */
-    
- /* CARROS BOTON COMPLETO */
-
- .container3{
+/* --------------------------------------------- Container 3 --------------------------------------------*/
+.container3{
     width: 100%;
-    background-image: url(fondo-fotos.png);
-    background-repeat: no-repeat;
-    background-size: 110% 100%;
-    margin-top: 50px;
 }
 
-.row3{
-    width: 60%;
+.container3 .row3{
+    width: 90%;
     margin: 0 auto;
+    padding-top: 90px;
+    box-sizing: border-box;
+    background-color: azure;
     display: flex;
     justify-content: center;
 }
 
-.col-33-1, .col-33-2, .col-33-3 {
-    width: 40%;
-    height: 300px;
-    margin: 20px;
+/* Col 1 de 3 */
+
+.container3 .row3 .col-33-1{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(9, 97, 102);
+    border-radius: 5px;
     background-image: url('../productos/anillo.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
 
-.col-33-2{
+.container3 .row3 .col-33-1 .sub2{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container3 .row3 .col-33-1 .sub2 a{
+    width: 100%;    
+}
+
+.container3 .row3 .col-33-1 .sub2 a button{
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 97, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    font: 1.3em sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Col 2 de 3 */
+
+.container3 .row3 .col-33-2{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(9, 97, 102);
+    border-radius: 5px;
     background-image: url('../productos/anillo_esmeralda.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-.col-33-3{
-    background-image: url('../productos/aretes.PNG');
+.container3 .row3 .col-33-2 .sub2{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
-/* Columnas 2 */
+.container3 .row3 .col-33-2 .sub2 a{
+    width: 100%;    
+}
+
+.container3 .row3 .col-33-2 .sub2 a button{
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 97, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    font: 1.3em sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Col 3 de 3 */
+
+.container3 .row3 .col-33-3{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(9, 97, 102);
+    border-radius: 5px;
+    background-image: url('../productos/aretes.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container3 .row3 .col-33-3 .sub2{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container3 .row3 .col-33-3 .sub2 a{
+    width: 100%;    
+}
+
+.container3 .row3 .col-33-3 .sub2 a button{
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 97, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    font: 1.3em sans-serif;
+    letter-spacing: 1px;
+}
+
+/* --------------------------------------------- Container 4 --------------------------------------------*/
+
 .container4{
     width: 100%;
-    background-image: url(fondo-fotos.png);
-    background-repeat: no-repeat;
-    background-size: 110% 100%;
 }
 
-.row4{
-    width: 60%;
+.container4 .row4{
+    width: 90%;
     margin: 0 auto;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+    background-color: azure;
     display: flex;
     justify-content: center;
 }
-.col-33-4, .col-33-5, .col-33-6 {
-    width: 40%;
-    height: 300px;
-    margin: 20px;
+
+/* Col 1 de 3 */
+
+.container4 .row4 .col-33-4{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(9, 97, 102);
+    border-radius: 5px;
     background-image: url('../productos/collar.PNG');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container4 .row4 .col-33-4 .sub2{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container4 .row4 .col-33-4 .sub2 a{
+    width: 100%;    
+}
+
+.container4 .row4 .col-33-4 .sub2 a button{
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 97, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    font: 1.3em sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Col 2 de 3 */
+
+.container4 .row4 .col-33-5{
+    width: 25%;
+    height: 60vh;
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(9, 97, 102);
+    border-radius: 5px;
+    background-image: url('../productos/cuarzo.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
 
-.col-33-4{
-    background-size: 100%;
-    background-position: bottom;
-}
-
-.col-33-5{
-    background-image: url('../productos/cuarzo.PNG');
-    background-size: 100%;
-}
-
-.col-33-6{
-    background-image: url('../productos/piedras.PNG');
-    background-size: 100%;
-}
-
-/* END Columnas 2 */
-
-.sub2{
-    height: 100%;
+.container4 .row4 .col-33-5 .sub2{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
 }
 
-.sub2 a  {
-    width: 100%;
+.container4 .row4 .col-33-5 .sub2 a{
+    width: 100%;    
 }
 
-.sub2 a  button{
+.container4 .row4 .col-33-5 .sub2 a button{
     width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    height: 10%;
     border: none;
-    background-color:rgb(9, 97, 102);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-    font-size: 1rem;
-    color:white;
+    outline: none;
+    background-color: rgb(9, 97, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    font: 1.3em sans-serif;
+    letter-spacing: 1px;
 }
 
-.sub2 a  button:hover{
-background-color: rgb(28, 153, 160);
-cursor: pointer;
-}
+/* Col 3 de 3 */
 
-
-/* ----------- SUSCRIPCIÓN ------------ */
-.container6{
-    width: 100%;
-    height: 60vh;
-    margin-top: -40px;
-}
-
-.container6 .background6{
-    background-image: url("../banner/reloj.jpg");
-    width: 100%;
-    height: 60vh;
-    background-size: 100%;
+.container4 .row4 .col-33-6{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(9, 97, 102);
+    border-radius: 5px;
+    background-image: url('../productos/amatista.jpg');
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.container4 .row4 .col-33-6 .sub2{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container4 .row4 .col-33-6 .sub2 a{
+    width: 100%;    
+}
+
+.container4 .row4 .col-33-6 .sub2 a button{
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 97, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    font: 1.3em sans-serif;
+    letter-spacing: 1px;
+}
+
+/* --------------------------------------------- Container 5 --------------------------------------------*/
+
+.container5{
+    width: 100%;
+}
+
+.container5 .row5{
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../productos/anillo3.jpg');
     background-position: center;
 }
 
-.container6 .background6 .back-color6 .row6{
-    margin-top: 100px;
-    width: 100%; 
+.container5 .row5 .col-100{
+    width: 70%;
+    margin-top: 60px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 60vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.container6 .background6 .back-color6 .row6 .col-30{
-    width: 30%; 
-}
+/* --------------------------------------------- Container 6 --------------------------------------------*/
 
-.container6 .background6 .back-color6 .row6 .col-30 form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
-    color: rgb(4, 21, 22);
-}
-
-.container6 .background6 .back-color6 .row6 .col-30 form label{
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
-.container6 .background6 .back-color6 .row6 .col-30 form input{
-    padding: 5px;
-    font-size: 1.4rem;
-    border:none;
-    outline: none;
-    border-radius: 10px;
-}
-
-.container6 .background6 .back-color6 .row6 .col-30 form button{
-    width: 60%;
-    padding: 7px 12px;
-    background-color:rgb(9, 97, 102);
-    color: azure;
-    border: none;
-    letter-spacing: 2px;
-    border-radius: 10px;
-    margin:0 auto;
-    margin-top: 20px;
-}
-
-.container6 .background6 .back-color6 .row6 .col-30 form button:hover{
-    background-color:rgb(28, 153, 160);
-    cursor: pointer;
-}
-
-
-/* ----------- Tendencias ------------ */
-
-.container5 .background5{
-    background-image: url("../productos/anillo3.jpg");
-    width: 90%;
-    height: 70vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-
-.container5 .background5 .back-color5{
+.container6{
     width: 100%;
-    height: 70vh;
-    margin: 0 auto;
-    background-color: rgba(0,0,0,0.3);
-}
-
-.container5 .background5 .back-color5 .row5{
-    width: 100%; 
     display: flex;
-    justify-content: start;
-    align-items: start;
-    height: 60vh;
-}
-
-.container5 .background5 .back-color5 .row5 .col-60{
-    margin-left: 15%;
-    margin-top: 15%;
-    width: 60%; 
-    display: flex;
-    justify-content: start;
     flex-direction: column;
 }
 
-.container5 .background5 .back-color5 .row5 .col-60 h2{
-    margin-top: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.4rem;
-    font-weight: 700%;
-    color:white;
-    text-align: left;
-    margin-bottom: 0px;
+.container6 .row6:nth-child(1){
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.container5 .background5 .back-color5 .row5 .col-60 p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.container6 .row6:nth-child(1) h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.7rem;
-    font-weight: 700%;
-    color: white;
-    text-align: left;
+    color: azure;
 }
 
-.container5 .background5 .back-color5 .row5 .col-60 button{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-    color: white;
-    background-color: rgb(9, 97, 102) ;
-    border-radius: 15px;
-    padding: 10px 40px;
-    border: none;
-    font-weight: 600;
-    transition: ease-in-out 1s;
-    width: 30%;
+.container6 .row6:nth-child(2){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: azure;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container6 .row6:nth-child(2) .container4-info{
+    width: 25%;
+    margin: 20px;
+}
+
+.container6 .row6:nth-child(2) .container4-info img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container6 .row6:nth-child(2) .container4-info h2{
+    color: rgb(9, 97, 102);
     font-size: 1.3rem;
-    margin-top: 20px;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container5 .background5 .back-color5 .row5 .col-60 button:hover{
-    color:rgb(9, 97, 102);
-    background-color:white ;
-    cursor: pointer;
+.container6 .row6:nth-child(2) .container4-info h3{
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
-
-
-/* ----------- SERVICIOS ------------ */
-
-.container4{
+.container6 .row6:nth-child(3){
     width: 100%;
-    height: 60vh;
     display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    place-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    background-color: azure;
+    padding-bottom: 50px;
 }
 
-.container4 .row4:nth-child(1) h1{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-    font-size: 1.5rem;
-    text-align: center;
-    width: 100%;
-}
-
-.row4{
-    width: 90%;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    align-items: center;
-}
-
-.container4-info{
-    width: 90%;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    place-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 30px;
-}
-
-img{
-    height: 250px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-h1{
-    color: rgb(9, 97, 102);
-    margin-bottom: 2%;
-    margin: 1.5%;
-    text-align: center;
-    font-style: oblique;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-}
-
-h1:hover{
-    color: rgb(9, 97, 102);
-}
-
-h3{
-    color:rgb(88, 88, 88);
-    margin-bottom: 1.5%;
-    margin: 1%;
-    text-align: center;
-    font-style: normal;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-    font-size: 1rem;
-}
-
-.row4 button{
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.container6 .row6:nth-child(3) button{
+    width: 60%;
+    padding: 10px 34px;
+    color: azure;
+    background-color: rgb(9, 97, 102);
     border: none;
-    background-color:rgb(9, 97, 102);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-    font-size: 1.5rem;
-    color:white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-.row4 button:hover{
-background-color: rgb(28, 153, 160);
-cursor: pointer;
-}
-
-
+/* --------------------------------------------- footer --------------------------------------------*/
 
 /* ----------- footer ------------ */
 
@@ -455,7 +446,7 @@ cursor: pointer;
 }
 .container-contacto h2{
     font-weight: bold;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color:rgb(9, 97, 102);
         text-decoration: none;
        font-size: 6mm;
@@ -464,7 +455,7 @@ cursor: pointer;
 
 .container-contacto p{
     font-weight: lighter;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color:black;
         text-decoration: none;
        font-size: 5mm;
@@ -477,7 +468,6 @@ cursor: pointer;
 
 .container-redes img{
     width: 40px;
-    height: 40px;
 }
 
 .container-redes:nth-child(4){
@@ -498,4 +488,89 @@ cursor: pointer;
     background-color: rgba(217, 217, 217);
     margin-top: 0%;
 }
-/* ----------- end footer ------------ */
+
+@media (max-width:1080px) {
+    .container34 .background .back-color .row .col-60 h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.7rem;
+        font-weight: 700%;
+        color: white;
+        transition: ease-in-out 1s;
+        margin-top: 0px;
+    }
+    .container34 .background .back-color .row .col-60 p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.1rem;
+        font-weight: 700%;
+        color: white;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        background-color: rgb(9, 97, 102);
+        padding: 0px;
+        margin: 0px;   
+    }
+    header .row .cont-logo{
+        width: 100%;
+        height: 120px;
+        background-color: azure;
+        margin-bottom: 0px;
+    }
+    header .row .cont-logo .filter img{
+        width: 140px;
+        height: 120px;
+    }
+
+    /*Banner*/
+    .container34 .background .back-color .row .col-60 h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700%;
+        color: white;
+        transition: ease-in-out 1s;
+        margin-top: 0px;
+    }
+    
+    .container34 .background .back-color .row .col-60 p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700%;
+        color: white;
+    }
+}
+
+@media (max-width:480px){
+    header .row nav{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    header .row nav ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0px;
+        background-color: #020202;
+        
+    }
+    header .row nav ul li:nth-child(1){
+        background-color: #020202;
+    }
+    header .row nav ul li:hover{
+        background-color: rgb(9, 97, 102);
+    }
+    header .row nav ul li{
+        padding: 5px 45px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header .row nav ul li a{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
