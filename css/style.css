@@ -481,6 +481,7 @@ header .row nav ul li a{
         font-weight: 700%;
         color: white;
     }
+
 }
 
 @media (max-width:768px){
@@ -516,6 +517,17 @@ header .row nav ul li a{
         font-weight: 700%;
         color: white;
     }
+
+    .container .background{
+        margin-top: -10%;
+    }
+
+    .container35 .row{
+        margin-top: -10%;
+    }
+
+
+
 }
 
 @media (max-width:480px){
