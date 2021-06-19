@@ -24,7 +24,6 @@ header .row .cont-logo{
 }
 
 header .row .cont-logo .filter{
-    background-color: rgba(0,0,0,0.1);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -81,11 +80,11 @@ header .row nav ul li a{
     background-repeat: no-repeat;
 }
 
-.container34 .background .back-color{
+/*.container34 .background .back-color{
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5); 
-}
+}*/
 
 .container34 .background .back-color .row{
     width: 60%;
@@ -103,7 +102,7 @@ header .row nav ul li a{
 .container34 .background .back-color .row .col-60 h2{
     margin-top: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-weight: 700%;
     color: azure;
     transition: ease-in-out 1s;
@@ -115,7 +114,7 @@ header .row nav ul li a{
 
 .container34 .background .back-color .row .col-60 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-weight: 700%;
     color: white;
 }
@@ -164,20 +163,22 @@ header .row nav ul li a{
 .container .background .row .col-60{
     display: flex;
     width: 35%;
+    justify-content: center;
 }
 
 .container .background .row .col-60 img{
-    width: 30vw;
+    width: 50vw;
+    justify-content: center;
 }
     
-.container .background .back-color .linea{
-   width: 100%;
+.container .background .linea{
+   width: 90%;
    margin-top: 10%;
    margin-bottom: 10%;
+   justify-content: center;
 }
 
 .container .background .linea h2{
-    width: 100%;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 5px;
@@ -249,11 +250,11 @@ header .row nav ul li a{
 }
 .container-contacto h2{
     font-weight: bold;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color:rgb(9, 97, 102);
-        text-decoration: none;
-       font-size: 6mm;
-       margin-left: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(9, 97, 102);
+    text-decoration: none;
+    font-size: 6mm;
+    margin-left: 5%;
 }
 
 .container-contacto p{
@@ -295,9 +296,12 @@ header .row nav ul li a{
 /* ----------- end footer ------------ */
 
 @media (max-width:1080px) {
+    .container34{
+        height: 45vh;
+    }
     .container34 .background .back-color .row .col-60 h2{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         font-weight: 700%;
         color: white;
         transition: ease-in-out 1s;
@@ -305,9 +309,13 @@ header .row nav ul li a{
     }
     .container34 .background .back-color .row .col-60 p{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2.1rem;
+        font-size: 1.2rem;
         font-weight: 700%;
         color: white;
+    }
+
+    .container .background .linea{
+        margin: 0 auto;
     }
 }
 
@@ -329,9 +337,13 @@ header .row nav ul li a{
     }
 
     /*Banner*/
+    .container34{
+        height: 42vh;
+    }
+
     .container34 .background .back-color .row .col-60 h2{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-weight: 700%;
         color: white;
         transition: ease-in-out 1s;
@@ -340,9 +352,33 @@ header .row nav ul li a{
     
     .container34 .background .back-color .row .col-60 p{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-weight: 700%;
         color: white;
+    }
+
+    /* contenido cuerpo*/
+
+    .container .background .linea{
+        padding: 5px 45px;
+        justify-content: center;
+    }
+
+    .container .background .linea h2{
+        font-size: 1.2rem;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+     /* footer*/
+
+    .container-contacto h2{
+        font-size: 1rem;
+    }
+
+    .container-contacto p{
+        font-size: 1rem;
     }
 }
 
@@ -396,23 +432,29 @@ header .row nav ul li a{
     
     .container34{
         width: 90%;
-        height: 60vh;
+        height: 35vh;
         margin: 0 auto;
+        justify-content: center;
     }
 
     .container34 .background{
-        background-image: url('../banner/joyas-banner.jpg');
+        background-image: url('../banner/banner2.jpg');
         width: 100%;
         height: 60vh;
         background-size: 100%;
         background-repeat: no-repeat;
+        
     }
 
-    /*.container34 .background .back-color{
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); 
+    /*.container34 .background .back-color .row{
+        height: 30vh;
+        justify-content: center;
     }*/
+
+    .container34 .background .back-color.row .col-60{
+        width: 100%;
+        padding: 5px;       
+    }
 
     .container34 .background .back-color .row .col-60 h2{
         margin-top: 0px;
@@ -425,9 +467,14 @@ header .row nav ul li a{
 
     .container34 .background .back-color .row .col-60 p{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 700%;
         color: white;
+    }
+
+    .container34 .background .back-color .row .col-60 button{
+        font-size: 0.7rem;
+        padding: 7px 32px;
     }
 
     /* Cols */
@@ -468,5 +515,10 @@ header .row nav ul li a{
         width: 100%;
         background-size: 100%;
         margin-bottom: 30px;
+    }
+
+    .container .background .linea{
+        justify-content: center;
+        padding: 5px 18px;
     }
 }
